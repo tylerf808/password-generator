@@ -1,6 +1,6 @@
 Assignment: Password Generator
-Author: Tyler Fabian
-GitHub: https://github.com/tylerf808/password-generator
+\nAuthor: Tyler Fabian
+\nGitHub: https://github.com/tylerf808/password-generator
 
 Overview:
 This website generates a random password for the user. It receives the users preferences and makes a randomized custom password for them.
