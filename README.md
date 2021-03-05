@@ -4,6 +4,8 @@ Author: Tyler Fabian
 
 GitHub: https://github.com/tylerf808/password-generator
 
+Live GitHub: https://tylerf808.github.io/password-generator/
+
 Overview:
 This website generates a random password for the user. It receives the users preferences and makes a randomized custom password for them.
 
