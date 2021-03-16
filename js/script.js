@@ -31,7 +31,7 @@ function generatePassword(){
     skip = true;
   }
 
-  if(skip = false){
+  if (skip == false){
     //Take user info to decide wether or not to use the lowercase array
     lowercase = window.confirm("Include lowercase letters?");
     if(lowercase == true)
@@ -58,19 +58,18 @@ function generatePassword(){
       var tempString = chosenArray[ranNum];
       password = password.concat(tempString); 
     }
-    return password;
+    return password;}
   }
-}
-  
+
+
 // Write password to the #password input
 function writePassword() {
-
-  //Assign password with the returned object from generatePassword
-  var password = generatePassword();
-  //Create variable to hold the HTML element for the password display
-  var passwordText = document.querySelector("#password");
-  //Change text of box below header to display the password
-  passwordText.value = password;
+    //Assign password with the returned object from generatePassword
+    var password = generatePassword();
+    //Create variable to hold the HTML element for the password display
+    var passwordText = document.querySelector("#password");
+    //Change text of box below header to display the password
+    passwordText.value = password;
 }
 
 // Add event listener to generate button
