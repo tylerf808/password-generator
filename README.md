@@ -19,5 +19,5 @@ Instructions:
 ![Third Step](./assets/password4.PNG)
 ![Fourth Step](./assets/password5.PNG)
 ![Fifth Step](./assets/password6.PNG)
-4. The website then changes the header to "Your password is: " and displays the generated password.
+4. The website then displays the generated password.
 ![Result](./assets/password7.PNG)
